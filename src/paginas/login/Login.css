@@ -1,0 +1,35 @@
+.textos1 {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.textos {
+    font-weight: bold !important;
+}
+
+.image {
+    padding-top: 25px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+
+
+}
+
+.text-decorator-none {
+    text-decoration: none !important;
+}
+
+body {
+    background:rgb(197, 253, 160);
+    background-size: cover;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.cor-botao{
+    color: white;
+    background: #7d974e !important;
+}

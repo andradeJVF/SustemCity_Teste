@@ -1,0 +1,41 @@
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.container-categoria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cat-nome{
+    font-size: 30px !important;
+    text-align: center !important;
+}
+
+.cat-descricao{
+    font-size: 20px !important;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-tamanho{
+    width: 500px;
+    height: 250px;
+}
+
+.botao-1{
+    padding-right: 10px !important;
+    background: #7d974e !important;
+}
+
+.botao-2{
+    background: #b0906b !important;
+    
+}
+
+.alinhar-botao{
+    display: flex;
+    justify-content: center;
+}

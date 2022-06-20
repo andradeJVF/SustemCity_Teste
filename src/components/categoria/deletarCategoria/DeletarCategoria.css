@@ -1,0 +1,23 @@
+.card-tamanho-2 {
+    width: 500px !important;
+    height: 300px !important;
+}
+
+.botao-del-1 {
+    background: #7d974e !important;
+}
+
+.container-deletar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.alinhar-botao-del{
+    display: flex;
+    justify-content: center;
+}
+
+.alinhar-del{
+    padding-top: 10px;
+}

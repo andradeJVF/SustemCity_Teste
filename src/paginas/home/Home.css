@@ -1,0 +1,15 @@
+.back{
+    background-color: #40521e;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo h3{
+    color: #9dbe5e !important;
+    font-weight: bold;
+}
+.grid-home{
+    margin-top: 50px;
+    padding-top: 50px;    
+  
+}

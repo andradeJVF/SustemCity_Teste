@@ -1,0 +1,17 @@
+* {
+  font-family: 'Merriweather', serif !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+
+  font-family: 'Merriweather', serif;
+}
+
+

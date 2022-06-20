@@ -1,0 +1,31 @@
+.box1 {
+    background: linear-gradient(36deg, #7d974e 80%, #b0906b 9%);
+    ;
+    height: 70px !important;
+    padding-top: 10px;
+}
+
+
+.redes {
+    font-size: 40px !important;
+    color: white !important;
+    padding-right: 5px !important;
+}
+
+.box3 {
+    padding-right: 10px;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.box3 a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.imagem{
+    padding-top: 0;
+    margin-top: 0;
+    height: 50px;
+    width: 80px;
+}

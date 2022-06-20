@@ -1,0 +1,25 @@
+.del-botao-1{
+    margin-left: 35px !important;
+    background: #7d974e !important;
+}
+
+.del-botao-2{
+    background: #b0906b !important;
+}
+
+.card-deletar-produto{
+    width: 300px !important;
+    height: 200px !important;
+}
+
+.container-deletar-produto{
+    display: flex;
+    justify-content: center;
+}
+
+.nome-produto-del{
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-align: center;
+}

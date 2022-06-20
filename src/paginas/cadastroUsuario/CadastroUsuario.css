@@ -1,0 +1,23 @@
+.image2{
+    background-image: url(https://imgur.com/I37M5dQ.png) !important;
+    background-repeat: no-repeat !important;
+    width: 100vh !important;
+    min-height: 100vh !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.textos2{
+    font-weight: bold !important;
+}
+
+.btnCancelar{
+    margin-right: 10px !important;
+    font-weight: bold !important;
+    background: #b0906b !important;
+}
+
+.btnCadastrar{
+    font-weight: bolder !important;
+    background: #7d974e !important;
+}

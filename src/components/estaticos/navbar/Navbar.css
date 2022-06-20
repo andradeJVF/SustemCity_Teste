@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(36deg, #7d974e 80%, #b0906b 9%);;
+}
+
+.links h6{
+    padding-top: 8px;
+    padding-right: 30px!important;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-navbar{
+    padding-top: 7px !important;
+}
+
+.text-decorator-none {
+    text-decoration: none;
+    color: white;
+}
+
+.fontenavbar{
+    font-family: 'Merriweather', serif!important; 
+}
+
+.logout{
+    color: white;
+}
