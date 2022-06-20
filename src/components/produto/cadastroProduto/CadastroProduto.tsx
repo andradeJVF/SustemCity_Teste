@@ -44,7 +44,7 @@ function CadastroProduto() {
     const [produtos, setProduto] = useState<Produto>({
         id: 0,
         produto: '',
-        valor: '',
+        valor: 0,
         descricao: '',
         foto: '',
         tipo: '',
