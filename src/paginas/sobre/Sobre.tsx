@@ -15,7 +15,7 @@ function Sobre() {
   );
 
   return (
-    <Grid className='back'>
+    <Grid xs={12} className='back'>
       <Grid className='alinhar'>
         <Box className='box2'>
           <Box><img src="https://i.imgur.com/9UV9Zsq.jpg?1" alt="Criador 1" className='foto' /></Box>

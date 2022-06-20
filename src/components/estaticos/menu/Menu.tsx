@@ -86,13 +86,6 @@ export default function Menus() {
 
         </MenuItem>
 
-        <MenuItem onClick={handleClose}> <IconButton className='text-decorator-none' edge="start" color="inherit" aria-label="menu">
-              <Link to='/cart' className='text-decorator-none'>
-                <AddShoppingCartIcon />
-              </Link>
-            </IconButton></MenuItem>
-
-
         <MenuItem >
          <IconButton className='text-decorator-none' edge="start" color="inherit" aria-label="menu" onClick={goLogout}>
               <Link to='/login' className='text-decorator-none'>

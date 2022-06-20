@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AppBar, IconButton, Toolbar, Typography, Avatar, Box } from "@material-ui/core";
+import { AppBar, IconButton, Toolbar, Typography, Avatar, Box, Grid } from "@material-ui/core";
 import { Link, useNavigate } from "react-router-dom"
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { toast } from 'react-toastify';
@@ -131,9 +131,9 @@ function Navbar() {
   }
 
   return (
-    <>
+    <Grid xs={12}>
       {navbarComponent}
-    </>
+    </Grid>
   )
 }
 
