@@ -33,11 +33,10 @@ function ListaProduto() {
                                 <div className="row">
                                     <div className="el-wrapper">
                                         <div className="box-up">
-                                            <img className='tamanho' src={produto.foto}></img>
+                                            <img className='tamanho' src={produto.foto} alt={produto.tipo}></img>
                                             <div className="img-info">
                                                 <div className="info-inner">
                                                     <span className="p-name"> {produto.produto}</span>
-                                                    <span className="p-company"> {produto.tipo}</span>
                                                 </div>
                                                 <div className="a-size">{produto.descricao}</div>
                                             </div>
