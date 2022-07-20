@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
-import './Carousel.css'
-import './script'
+import React from 'react';
+import './Carousel.css';
 
 function CarouselComponent() {
 
     return (
         <>
-        
         <div className="slider">
                 <div className="slides">
                     <input type="radio" name="radio-btn" id="radio1" />
@@ -36,7 +34,7 @@ function CarouselComponent() {
                     <label htmlFor="radio3" className="manual-btn"></label>
                 </div>
             </div>
-            
+        
         </>
     )
 }

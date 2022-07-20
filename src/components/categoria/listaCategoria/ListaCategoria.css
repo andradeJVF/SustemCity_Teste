@@ -1,3 +1,10 @@
+.lista-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .text-decorator-none{
     text-decoration: none;
 }

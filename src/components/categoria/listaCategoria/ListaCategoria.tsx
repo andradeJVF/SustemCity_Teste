@@ -1,4 +1,4 @@
-import { Button, Card, CardActions, CardContent, Typography } from '@material-ui/core';
+import { Button, Card, CardActions, CardContent, Grid, Typography } from '@material-ui/core';
 import { Box } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
@@ -47,38 +47,37 @@ function ListaCategoria() {
   }, [categoria.length])
 
   return (
-    <div className='container-categoria'>
-      {
-        categoria.map(categoria => (
-
-          <Box paddingTop={2} paddingLeft={2}>
-            <Card className='card-tamanho'>
-              <CardContent>
-                <Typography className='cat-nome' gutterBottom>
-                  {categoria.categoria}
-                </Typography>
-                <Typography className='cat-descricao' variant="body2">
-                  {categoria.descricao}
-                </Typography>
-              </CardContent>
-              <CardActions className='alinhar-botao'>
-                  <Link to={`/atualizarCategoria/${categoria.id}`} className="text-decorator-none">
+      <Grid xs={12} className='lista-container'>
+        <table>
+          <thead>
+            <tr>
+              <th>Categoria</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            {categoria.map(categoria => {
+              return (
+                <tr key={categoria.id}>
+                  <td>{categoria.categoria}</td>
+                  <td>{categoria.descricao}</td>
+                  <td><Link to={`/atualizarCategoria/${categoria.id}`} className="text-decorator-none">
                     <Button variant="contained" size='small' className='botao-1'>
                       Atualizar
                     </Button>
-                  </Link>
-               
-                  <Link to={`/deletarCategoria/${categoria.id}`} className="text-decorator-none">
+                  </Link></td>
+                  <td><Link to={`/deletarCategoria/${categoria.id}`} className="text-decorator-none">
                     <Button variant="contained" size='small' className='botao-2'>
-                      Deletar
+                      Excluir
                     </Button>
-                  </Link>
-              </CardActions>
-            </Card>
-          </Box>
+                  </Link></td>
+                </tr>
+              )
+            })}
 
-        ))}
-    </div>
+          </tbody>
+        </table>
+      </Grid>
   );
 }
 
