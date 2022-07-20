@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { busca } from '../../../services/Service'
-import { Box, Button, Grid } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
+import { Box } from '@mui/material'
 
 import './ListaProduto.css';
 import Produto from '../../../models/Produto';

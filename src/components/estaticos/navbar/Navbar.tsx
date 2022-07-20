@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { AppBar, IconButton, Toolbar, Typography, Avatar, Box, Grid } from "@material-ui/core";
+import { AppBar, IconButton, Toolbar, Typography, Grid } from "@material-ui/core";
+import { Box } from '@mui/material'
 import { Link, useNavigate } from "react-router-dom"
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { toast } from 'react-toastify';

@@ -1,5 +1,6 @@
 import React, { ChangeEvent, useEffect, useState } from 'react'
-import { TextField, Box} from "@material-ui/core";
+import { TextField} from "@material-ui/core";
+import { Box } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import User from '../../models/User'
 import { buscaId } from '../../services/Service'

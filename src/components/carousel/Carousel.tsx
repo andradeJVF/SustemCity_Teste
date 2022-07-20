@@ -1,24 +1,43 @@
-import React from 'react';
-import Carousel from 'react-elastic-carousel';
+import React, { useEffect } from 'react';
 import './Carousel.css'
+import './script'
 
 function CarouselComponent() {
-    var items = [
-
-        { img: "https://i.imgur.com/gyppApD.jpg/2" },
-        { img: "https://i.imgur.com/5KcZauE.jpg?1" },
-        { img: "https://i.imgur.com/WqYAafG.jpg?2" }
-    ]
-
 
     return (
-        <div className='container-carousel'>
-                <Carousel isRTL={false} className='imagens-carousel'>
-                    {items.map(item => (
-                        <img src={item.img} alt="Item" />
-                    ))}
-                </Carousel>
-        </div>
+        <>
+        
+        <div className="slider">
+                <div className="slides">
+                    <input type="radio" name="radio-btn" id="radio1" />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+
+                    <div className="slide first">
+                        <img src="https://i.imgur.com/gyppApD.jpg?2" alt="imagem 1" />
+                    </div>
+                    <div className="slide">
+                        <img src="https://i.imgur.com/5KcZauE.jpg?1" alt="imagem 2" />
+                    </div>
+                    <div className="slide">
+                        <img src="https://i.imgur.com/8IMX9tN.jpg?1" alt="imagem 3" />
+                    </div>
+
+                    <div className="navigation-auto">
+                        <div className="auto-btn1"></div>
+                        <div className="auto-btn2"></div>
+                        <div className="auto-btn3"></div>
+                    </div>
+                </div>
+
+                <div className="manual-navigation">
+                    <label htmlFor="radio1" className="manual-btn"></label>
+                    <label htmlFor="radio2" className="manual-btn"></label>
+                    <label htmlFor="radio3" className="manual-btn"></label>
+                </div>
+            </div>
+            
+        </>
     )
 }
 

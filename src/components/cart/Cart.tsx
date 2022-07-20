@@ -1,5 +1,5 @@
 import React, { useEffect, useState, ChangeEvent } from 'react'
-import { Box, Button, Card, Grid, TextField, Typography } from '@material-ui/core'
+import { Button, Card, Grid, TextField, Typography } from '@material-ui/core'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import Produto from '../../models/Produto'
@@ -9,6 +9,7 @@ import './Cart.css'
 import { UserState } from '../../store/tokens/tokensReducer'
 import { useSelector } from 'react-redux'
 import { toast } from 'react-toastify'
+import { Box } from '@mui/material'
 
 function Cart() {
 
